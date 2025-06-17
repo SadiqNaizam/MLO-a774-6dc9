@@ -68,6 +68,10 @@ export default {
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
 			},
+			fontFamily: {
+        // The CSS variable --font-sans itself contains the full font stack.
+        sans: 'var(--font-sans)',
+      },
 			keyframes: {
 				'accordion-down': {
 					from: {
